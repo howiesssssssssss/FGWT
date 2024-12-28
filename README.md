@@ -14,7 +14,7 @@ Frequency-Guided Wavelet Transformer for Effective Moiré Pattern Removal
 ## Test
 
 1. [Downloading the Dataset](https://pan.baidu.com/share/init?surl=86tPHkRgr9eC9LpcRp59NA) key:(d6sz)
-2. [Downloading the Pretrained Model](https://pan.baidu.com/s/1nRQPDC9CdWjy87rHAvdVDQ) key:(daw3)
+2. [Downloading the Pretrained Model](https://pan.baidu.com/s/1vOO9uoZEkjN9PMWQa4q7_Q) key:(mlvp)
 3. Fill in the file path.
 
 ```python
