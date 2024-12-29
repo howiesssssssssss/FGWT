@@ -10,10 +10,10 @@ from skimage.metrics import structural_similarity as SSIM
 
 parser = argparse.ArgumentParser(description='Testing')
 
-parser.add_argument('--checkpoint_dir',  default='Checkpoint/rawlossbig.pth', help='the model file to load')
+parser.add_argument('--checkpoint_dir',  default='', help='the model file to load')
 parser.add_argument('--gpu_id', dest='gpu_id', type=int, default=0, help='gpu id')
 parser.add_argument('--num_worker', dest='num_worker', type=int, default=0, help='number of workers when loading data')
-parser.add_argument('--test_path', dest='test_path', default='/mnt/why1/datasets/raw_moire_image_dataset/testset/', help='path of test data')
+parser.add_argument('--test_path', dest='test_path', default='', help='path of test data')
 parser.add_argument('--save_test_dir', dest='save_test_dir', default='./out_final/', help='storage path of output data')
 
 args = parser.parse_args()
