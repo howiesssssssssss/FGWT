@@ -24,6 +24,6 @@ python test.py
 ```
 ## Comparison
 
-![a](show/show.jpg)
-![b](show/show1.jpg)
+![a](show/show1.jpg)
+![b](show/show.jpg)
 ![c](show/selfmoire.jpg)
